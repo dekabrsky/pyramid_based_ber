@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f276014d-fd06-43b8-aba4-cabc108b2b51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.coveragerc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/pyramid_based_ber.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGES.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MANIFEST.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/development.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/production.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/static/pyramid-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/static/pyramid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/static/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/templates/404.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/templates/layout.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/templates/mytemplate.jinja2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/views/default.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyramid_based_ber/views/notfound.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1mb0QiaCYmTD96LSsAwxJKd8KRq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AdjaraGuju" />
+  </component>
+  <component name="RunManager" selected="Pyramid server.pyramid_based_ber">
+    <configuration name="pyramid_based_ber" type="Python.PyramidServer" factoryName="Pyramid server">
+      <module name="pyramid_based_ber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="CONFIGURATION_FILE" value="$PROJECT_DIR$/development.ini" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in setup.py" type="tests" factoryName="Unittests">
+      <module name="pyramid_based_ber" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/setup.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f276014d-fd06-43b8-aba4-cabc108b2b51" name="Default Changelist" comment="" />
+      <created>1609746968624</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609746968624</updated>
+      <workItem from="1609746979779" duration="1447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pyramid_based_ber$pyramid_based_ber.coverage" NAME="pyramid_based_ber Coverage Results" MODIFIED="1609747826226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
