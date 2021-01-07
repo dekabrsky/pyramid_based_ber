@@ -31,8 +31,6 @@ header {
 	vertical-align: middle;
 }
 
-
-
 .header-top li:first-child {
 	margin-right: 51%;
 	margin-top: 7px;
@@ -116,10 +114,6 @@ header {
 	display: none;
 }
 
-.steps img {
-	opacity: 0.4;
-}
-
 .steps input[type="checkbox"]:checked + label img,
 .steps input[type="radio"]:checked + label img {
 	opacity: 1;
@@ -127,6 +121,7 @@ header {
 
 .steps img {
 	transition: all 0.3s ease;
+	opacity: 0.4;
 }
 
 .steps img:hover {
@@ -223,4 +218,68 @@ footer .copyright {
 	padding-top: 5px;
 	font-size: 18px;
 	letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 1570px) {
+	.content .delivery-info input[type="text"] {
+		height: 41px;
+		font-size: 17px;
+	}
+	.content .delivery-info input[type="submit"] {
+		font-size: 18px;
+		height: 55px;
+	}
+	.content > h2 {
+		font-size: 32px;
+	}
+	.products {
+		width: 160px;
+	}
+	.steps img {
+		width: 80px;
+	}
+	.content .steps p {
+		font-size: 22px;
+	}
+	.content .steps h2 {
+		font-size: 28px
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.header-top li:first-child {
+		margin-right: 41%;
+	}
+	.content .delivery-info input[type="text"] {
+		height: 41px;
+		font-size: 14px;
+		padding-left: 18px;
+	}
+	.content .delivery-info input[type="submit"] {
+		font-size: 16px;
+		height: 40px;
+	}
+	.products {
+		width: 140px;
+	}
+	.steps img {
+		width: 70px;
+	}
+	.content .steps p {
+		font-size: 20px;
+	}
+	.content .steps h2 {
+		font-size: 26px
+	}
+}
+
+@media screen and (max-width: 860px) {
+	.header-top li:first-child {
+		margin-right: 31%;
+	}
+	.header-top {
+		height: 5.509%;
+		padding-left: 50px;
+		background: url("../img/black_line.jpg") center no-repeat;
+	}
 }
