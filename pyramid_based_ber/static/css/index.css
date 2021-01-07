@@ -1,8 +1,7 @@
 @import 'settings.css';
 
 * {
-	font-family: 'Akrobat Light', sans-serif;
-	
+	font-family: 'Akrobat Light';
 }
 
 body {
@@ -59,7 +58,6 @@ header {
 
 .header-bottom h1 {
 	font-size: 52px;
-	font-family: 'Akrobat Light', sans-serif;
 	color: white;
 	margin-bottom: 50px;
 }
