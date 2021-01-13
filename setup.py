@@ -14,8 +14,12 @@ requires = [
     'pyramid_jinja2',
     'pyramid_debugtoolbar',
     'waitress',
-    'sqlalchemy',
-    'zope.sqlalchemy'
+    'alembic',
+    'pyramid_retry',
+    'pyramid_tm',
+    'SQLAlchemy',
+    'transaction',
+    'zope.sqlalchemy',
 ]
 
 tests_require = [
@@ -51,7 +55,7 @@ setup(
             'main = pyramid_based_ber:main',
         ],
         'console_scripts': [
-            'initialize_tutorial_db = pyramid_based_ber.initialize_db:main'
+            'initialize_pyramid_based_ber_db=pyramid_based_ber.scripts.initialize_db:main',
         ],
     },
 )

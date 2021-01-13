@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'Akrobat Light', sans-serif;
+	src: url("../fonts/Akrobat-Light.ttf");
+}
+
+@font-face {
+	font-family: 'Akrobat SemiBold', sans-serif;
+	src: url("../fonts/Akrobat-SemiBold.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
