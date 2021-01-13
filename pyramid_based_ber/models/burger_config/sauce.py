@@ -2,6 +2,7 @@ from enum import Enum
 
 
 class Sauce(Enum):
-    ketchup = 0
+    barbecue = 0
     mustard = 1
-    mayonnaise = 2
+    garlic = 2
+    ketchup = 3
