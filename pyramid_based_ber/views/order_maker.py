@@ -4,11 +4,11 @@ from pyramid_based_ber.infrastructure.order_manager.order_manager import registe
 from pyramid_based_ber.infrastructure.validation.info_validator import validate
 
 
-@view_config(route_name='order')
+@view_config(route_name='order', renderer='../templates/order_info.jinja2')
 def make_order(request):
     order_info = parse_order_info(request.params)
-    if validate(order_info):
-        register_order(order_info)
-        return
-    else:
-        return {'': 'Incorrect data'}
+    # if validate(order_info):
+    register_order(order_info)
+    return {'order_info': order_info}
+    # else:
+    # return {'': 'Incorrect data'}
